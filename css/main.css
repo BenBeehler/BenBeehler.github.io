@@ -5,11 +5,12 @@
 
 html {
     font-family: 'Roboto', sans-serif;
+    background: #ededed;
 }
 
 .thoxyn-card {
     border: 2px solid  #ececec;
-    padding-left: 5px;
+    padding-left: 10px;
     padding-bottom: 5px;
     padding-right: 5px;
     background-color: white;
