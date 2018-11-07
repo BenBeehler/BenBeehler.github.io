@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
-@import url("./navigation.css");
 @import url("./hover.css");
 @import url("./buttons.css");
 @import url("./inputs.css");
@@ -15,7 +14,6 @@ html {
     padding-right: 5px;
     background-color: white;
     overflow: auto;
-    margin: auto;
     position: absolute;
     border-radius: 25px;
 }
