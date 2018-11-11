@@ -1,9 +1,10 @@
-input[type=text], textarea[type=text] {
+input[type=text], textarea {
     padding:5px; 
     border: 1px solid #1FA2FF; 
     -webkit-border-radius: 5px;
     border-radius: 10px;
     font-size: 18px;
+    height: 36px;
 }
 
 input[type=text]:focus, textarea[type=text]:focus {
@@ -15,3 +16,10 @@ input:focus, textarea:focus {
     border: 1px solid rgba(81, 203, 238, 1);   
 }
 
+textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+.demo {
+    width: 50%;
+}

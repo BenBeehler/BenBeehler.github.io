@@ -1,3 +1,13 @@
-ul li {
+ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #ddd;
+    border-radius: 10px;
+    height: 36px;
+}
+
+li {
+    float: left;
+    padding-right: 50px;
 }
