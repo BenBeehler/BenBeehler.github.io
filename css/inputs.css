@@ -3,6 +3,9 @@ input[type=text], textarea {
     border: 1px solid #1FA2FF; 
     -webkit-border-radius: 5px;
     border-radius: 10px;
+}
+
+input[type=text] {
     font-size: 18px;
     height: 36px;
 }
