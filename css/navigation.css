@@ -1,13 +1,21 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #ddd;
-    border-radius: 10px;
-    height: 36px;
+/* we'll target the entire nav */
+nav {
+    width: 100%; 
+    height: 38px; 
+    background-color: #eaeaea;
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    position: fixed;
+    border-bottom: 1px solid #dbdbdb;
 }
 
-li {
-    float: left;
-    padding-right: 50px;
+
+nav .btn-link {
+    font-size: 30px;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-top: 50%;
+    padding-bottom: 50%;
 }
