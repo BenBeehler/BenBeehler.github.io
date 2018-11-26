@@ -1,0 +1,16 @@
+.tag {
+    margin: 0 auto;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    color: white;
+    padding: 5px 11px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    background-image: linear-gradient(to right, #1FA2FF 0%, #1FA2FF 100%);
+}

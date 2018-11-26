@@ -3,6 +3,8 @@
 @import url("./buttons.css");
 @import url("./inputs.css");
 @import url("./navigation.css");
+@import url("./loading.css");
+@import url("./tags.css");
 
 html {
     font-family: 'Roboto', sans-serif;
@@ -15,9 +17,10 @@ html {
     padding-bottom: 5px;
     padding-right: 5px;
     background-color: white;
-    overflow: auto;
-    position: absolute;
+    position: relative;
     border-radius: 25px;
+    display: inline-block;
+    clear: both;
 }
 
 .thoxyn-card hr {
@@ -29,6 +32,7 @@ html {
     font-size: 37px;
     color: black;
     right: 10px;
+    padding-bottom: 0;
 }
 
 .card-subtitle {

@@ -9,18 +9,11 @@
     </head>
 
     <body>
-        <nav>
-            <div class="dropdown">
-                <a class="btn-link" id="btn-link" href="#"><i class="fas fa-bars"></i></a>
-                <div class="dropdown-content">
-                    <a href="#"><i class="fas fa-rss"></i>&nbsp;&nbsp;Feed</a>
-                    <a href="#"><i class="fas fa-pencil-alt"></i>&nbsp;&nbsp;Write</a>
-                    <a href="#"><i class="fas fa-user"></i>&nbsp;&nbsp;Profile</a>
-                    <a href="#"><i class="fas fa-cog"></i>&nbsp;&nbsp;Settings</a>
-                    <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i>&nbsp;&nbsp;Bookmarks</a>
-                </div>
-            </div> 
-        </nav>
+        <div class="topnav">
+            <a class="active" href="#home">Hub</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </div> 
 
         <br><br>
         <h1>Interactables</h1>
@@ -49,6 +42,9 @@
         </div> 
         <br>
         <br>
+        <div class="lds-facebook"><div></div><div></div><div></div></div>
+        <br>
+        <br>
         <h1>Input Field</h1>
         <input type="text" placeholder="Search"/>
         <br><br>
@@ -61,11 +57,27 @@
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyHo44k59yEu2HaPl9cI_N9c3f7u163CSEx8IFMgNYVI9jOkWW">
             </div>
             <div class="card-titles">
+                <p class="card-title">Your Menu</p>
+            </div>
+            <p>10 Followers<br>15 Following<br></p>
+            <a href="#" class="btn btn-solid-blue">Craft a Post</a>
+            <a href="#" class="btn btn-solid-blue">Update Your Profile</a>
+            <br>
+            &nbsp;
+        </div>
+
+        <div class="thoxyn-card post">
+            <div class="card-profile"><br><br>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyHo44k59yEu2HaPl9cI_N9c3f7u163CSEx8IFMgNYVI9jOkWW">
+            </div>
+            <div class="card-titles">
                 <p class="card-title">Welcome</p>
             </div>
             <p class="card-subtitle">Ambiguous, by <a href="#">Ben Beehler</a>, on November 6, 2018</p>
             <p>Welcome to Thoxyn. I trust that you have read our welcome guide and that you are well acquainted with the purpose of this website. To get started, you can follow users to read their posts.</p>
-            <button class="btn btn-grad-purple">Read More</button>
+            <a href="#" class="btn btn-grad-purple"><i class="fas fa-book"></i> Read More</a>
+            <a href="#" class="btn btn-grad-purple"><i class="fas fa-thumbs-up"></i> Like</a>
+            <a href="#" class="btn btn-grad-purple"><i class="fas fa-user-plus"></i> Follow User</a>
             <br>
             &nbsp;
         </div>
