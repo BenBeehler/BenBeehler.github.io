@@ -4,16 +4,48 @@
         <link rel="stylesheet" href="./css/extra.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta charset="UTF-8">
 
         <title>Flavorly UI Demo Kit</title>
     </head>
 
     <body>
         <div class="topnav">
-            <a class="active" href="#home">Hub</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
+            <a class="active" href="#home"><i class="fa fa-rss" aria-hidden="true"></i> Feed</a>
+            <a href="#contact"><i class="fas fa-pencil-alt"></i> Write</a>
+            <a href="#about"><i class="fas fa-sign-out-alt"></i> Sign Out</a>
+            <a href="#about"><i class="fas fa-search"></i> Search</a>
         </div> 
+
+        <br><br>
+
+        <div class="thoxyn-card">
+            <div class="card-profile"><br><br>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyHo44k59yEu2HaPl9cI_N9c3f7u163CSEx8IFMgNYVI9jOkWW">
+            </div>
+            <div class="card-titles">
+                <p class="card-title">Ben Beehler</p>
+            </div>
+            <p>15, Developer, Verified, Male</p>
+            <p>
+            15 Posts,<br>
+            15 Comments,<br>
+            15 Followers,<br>
+            15 Following</p><br>
+            <a class="btn btn-solid-blue">Write a Post</a><br><br>
+            <a class="btn btn-solid-blue">Your Profile Settings</a><br><br>
+            <div class="dropdown">
+                    <a class="btn btn-solid-blue">1 <i class="fa fa-bell" aria-hidden="true"></i></a>
+                    <div class="dropdown-content">
+                        <a>Ben liked your post</a>
+                        <a href="#"><b><i class="fas fa-eraser"></i> Clear Notifications</b></a>
+                </div>
+            </div>
+            <br>
+            <a href="#" class="btn-link">View the global feed</a> 
+            <br>
+            &nbsp;
+        </div>
 
         <br><br>
         <h1>Interactables</h1>
@@ -52,34 +84,20 @@
         <br><br>
         <h1>Default Card Template</h1>
         <h3>The width has been extended on purpose.</h3>
-        <div class="thoxyn-card post">
-            <div class="card-profile"><br><br>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyHo44k59yEu2HaPl9cI_N9c3f7u163CSEx8IFMgNYVI9jOkWW">
-            </div>
-            <div class="card-titles">
-                <p class="card-title">Your Menu</p>
-            </div>
-            <p>10 Followers<br>15 Following<br></p>
-            <a href="#" class="btn btn-solid-blue">Craft a Post</a>
-            <a href="#" class="btn btn-solid-blue">Update Your Profile</a>
-            <br>
-            &nbsp;
-        </div>
 
-        <div class="thoxyn-card post">
+        <div class="thoxyn-card">
             <div class="card-profile"><br><br>
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyHo44k59yEu2HaPl9cI_N9c3f7u163CSEx8IFMgNYVI9jOkWW">
             </div>
             <div class="card-titles">
                 <p class="card-title">Welcome</p>
             </div>
-            <p class="card-subtitle">Ambiguous, by <a href="#">Ben Beehler</a>, on November 6, 2018</p>
+            <p class="card-subtitle">Ambiguous, by <a href="#">Ben Beehler ✓</a>, on November 6, 2018</p>
             <p>Welcome to Thoxyn. I trust that you have read our welcome guide and that you are well acquainted with the purpose of this website. To get started, you can follow users to read their posts.</p>
             <a href="#" class="btn btn-grad-purple"><i class="fas fa-book"></i> Read More</a>
-            <a href="#" class="btn btn-grad-purple"><i class="fas fa-thumbs-up"></i> Like</a>
-            <a href="#" class="btn btn-grad-purple"><i class="fas fa-user-plus"></i> Follow User</a>
             <br>
             &nbsp;
         </div>
+        <br>
     </body>
 </html>
