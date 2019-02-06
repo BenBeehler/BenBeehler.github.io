@@ -1,0 +1,114 @@
+.card, .bigcard {
+    -webkit-box-shadow: 0px 0px 38px -16px rgba(0,0,0,0.48);
+    -moz-box-shadow: 0px 0px 38px -16px rgba(0,0,0,0.48);
+    box-shadow: 0px 0px 38px -16px rgba(0,0,0,0.48);
+    background-color: white;
+}
+
+.card .topic {
+    padding-top: 15px;
+    color: rgb(121, 121, 121);
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.card .title {
+    padding-top: 0px;
+    font-size: 36px;
+    margin-top: -35px;
+}
+
+.card .content {
+    font-size: 16px;
+    margin-top: -40px;
+}
+
+.card .stats {
+    font-size: 16px;
+    margin-top: -10px;
+}
+
+.post {
+    width: 820px;
+    height: 240px;
+}
+
+.post .notd {
+    text-decoration: none;
+}
+
+.post:hover {
+    cursor: pointer;
+}
+
+.post p {
+    padding-left: 15px;
+    padding-left: 15px;
+}
+
+.post .thumbnail {
+    float: left;
+    width: 320;
+    height: 240;
+    margin-right: 15px;
+}
+
+.post .bookmark {
+    float: right;
+}
+
+
+/* Big Card */
+.bigcard .topic {
+    padding-top: 15px;
+    color: rgb(121, 121, 121);
+    font-size: 12px;
+    font-weight: 200;
+    padding-top: 50px;
+}
+
+.bigcard .title {
+    padding-top: 0px;
+    font-size: 36px;
+    margin-top: -35px;
+}
+
+.bigcard .content {
+    font-size: 16px;
+    margin-top: -40px;
+    padding-left: 15px;
+}
+
+.bigcard .stats {
+    font-size: 16px;
+    margin-top: -10px;
+}
+
+.bigpost {
+    width: 1640px;
+    height: 480px;
+}
+
+.bigpost .notd {
+    text-decoration: none;
+}
+
+.bigpost:hover {
+    cursor: pointer;
+}
+
+.bigpost p {
+    padding-left: 15px;
+    padding-left: 15px;
+}
+
+.bigpost .thumbnail {
+    float: left;
+    width: 640;
+    height: 480;
+    margin-right: 15px;
+}
+
+.bigpost .bookmark {
+    float: right;
+}

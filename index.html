@@ -1,103 +1,74 @@
 <html>
     <head>
         <link rel="stylesheet" href="./css/main.css">
-        <link rel="stylesheet" href="./css/extra.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <meta charset="UTF-8">
-
-        <title>Flavorly UI Demo Kit</title>
+        <link rel="stylesheet" href="./css/skeleton/skeleton.css">
+        <link rel="stylesheet" href="./css/skeleton/normalize.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     </head>
 
     <body>
-        <div class="topnav">
-            <a class="active" href="#home"><i class="fa fa-rss" aria-hidden="true"></i> Feed</a>
-            <a href="#contact"><i class="fas fa-pencil-alt"></i> Write</a>
-            <a href="#about"><i class="fas fa-sign-out-alt"></i> Sign Out</a>
-            <a href="#about"><i class="fas fa-search"></i> Search</a>
-        </div> 
-
-        <br><br>
-
-        <div class="thoxyn-card">
-            <div class="card-profile"><br><br>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyHo44k59yEu2HaPl9cI_N9c3f7u163CSEx8IFMgNYVI9jOkWW">
-            </div>
-            <div class="card-titles">
-                <p class="card-title">Ben Beehler</p>
-            </div>
-            <p>15, Developer, Verified, Male</p>
-            <p>
-            15 Posts,<br>
-            15 Comments,<br>
-            15 Followers,<br>
-            15 Following</p><br>
-            <a class="btn btn-solid-blue">Write a Post</a><br><br>
-            <a class="btn btn-solid-blue">Your Profile Settings</a><br><br>
-            <div class="dropdown">
-                    <a class="btn btn-solid-blue"><i class="fa fa-bell" aria-hidden="true"></i> 1</a>
-                    <div class="dropdown-content">
-                        <a>Ben liked your post</a>
-                        <a href="#"><b><i class="fas fa-eraser"></i> Clear Notifications</b></a>
-                </div>
-            </div>
+      <div class="card">
+        <ul class="nav">
+          <li><a href="/home"><i class="fas fa-home"></i> Home</a></li>   
+          <li><a href="/write"><i class="fas fa-chalkboard"></i> Write</a></li>
+          <li><a href="/settings"><i class="fas fa-sliders-h"></i> Settings</a></li>
+          <li><a href="/profile"><i class="fas fa-user-alt"></i> Profile</a></li>
+          <li><a href="/logout"><i class="fas fa-sign-out-alt"></i> Sign Out</a></li>
+        </ul>
+        <br>
+      </div>
+			<br>
+      <br><br>
+      <div class="container">
+        <div class="row">
+          <div class="bigcard bigpost" onclick="window.location='https://google.com'">
+            <img class="thumbnail" src="https://news.nationalgeographic.com/content/dam/news/photos/000/795/79574.ngsversion.1422286298641.adapt.1900.1.jpg" />
+            <p class="topic">WELLNESS AND HEALTH</p>
+            <p class="title">Finding Your Why</p>
             <br>
-            <a href="#" class="btn-link">View the global feed</a> 
+            <p class="content">Hello everyone! Thoxyn has recieved several stark upgrades both in the UI and the backend. You should see increased speeds and navigation potential with Thoxyn V2.0.
+                Hello everyone! Thoxyn has recieved several stark upgrades both in the UI and the backend. You should see increased speeds and navigation potential with Thoxyn V2.0.
+                Hello everyone! Thoxyn has recieved several stark upgrades both in the UI and the backend. You should see increased speeds and navigation potential with Thoxyn V2.0.
+                Hello everyone! Thoxyn has recieved several stark upgrades both in the UI and the backend. You should see increased speeds and navigation potential with Thoxyn V2.0.
+                Hello everyone! Thoxyn has recieved several stark upgrades both in the UI and the backend. You should see increased speeds and navigation potential with Thoxyn V2.0.
+                Hello everyone! Thoxyn has recieved several stark upgrades both in the UI and the backend. You should see increased speeds and navigation potential with Thoxyn V2.0.
+                Hello everyone! Thoxyn has recieved several stark upgrades both in the UI and the backend. You should see increased speeds and navigation potential with Thoxyn V2.0.
+
+            </p>
+            <p class="stats">15 <i class="fas fa-angle-double-up"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;31 <i class="far fa-comment-alt"></i></p>
+            <p>Written by <a class="notd" href="lol">Bryce Gray</a>, <i>June 19, 2019</i></p>
+          </div>
+          <br><br>
+          <div class="card post" onclick="window.location='https://google.com'">
+            <img class="thumbnail" src="https://news.nationalgeographic.com/content/dam/news/photos/000/795/79574.ngsversion.1422286298641.adapt.1900.1.jpg" />
+            <p class="topic">WELLNESS AND HEALTH</p>
+            <p class="title">Finding Your Why</p>
             <br>
-            &nbsp;
+            <p class="content">Why? When I was young, I was that kid that always asked my parents "why?" whenever they would ask me to do something.</p>
+            <p class="stats">15 <i class="fas fa-angle-double-up"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;31 <i class="far fa-comment-alt"></i></p>
+            <p>Written by <a class="notd" href="lol">Bryce Gray</a>, <i>June 19, 2019</i></p>
+          </div>
+          <br><br>
+          <div class="card post" onclick="window.location='https://google.com'">
+            <img class="thumbnail" src="https://5.imimg.com/data5/LM/DU/MY-22954806/apple-fruit-250x250.jpg" />
+            <p class="topic">WELLNESS AND HEALTH</p>
+            <p class="title">Finding Your Why</p>
+            <br>
+            <p class="content">Why? When I was young, I was that kid that always asked my parents "why?" whenever they would ask me to do something.</p>
+            <p class="stats">15 <i class="fas fa-angle-double-up"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;31 <i class="far fa-comment-alt"></i></p>
+            <p>Written by <a class="notd" href="lol">Bryce Gray</a>, <i>June 19, 2019</i></p>
+          </div>
+          <br><br>
+          <div class="card post" onclick="window.location='https://google.com'">
+            <img class="thumbnail" src="https://5.imimg.com/data5/LM/DU/MY-22954806/apple-fruit-250x250.jpg" />
+            <p class="topic">WELLNESS AND HEALTH</p>
+            <p class="title">Finding Your Why</p>
+            <br>
+            <p class="content">Why? When I was young, I was that kid that always asked my parents "why?" whenever they would ask me to do something.</p>
+            <p class="stats">15 <i class="fas fa-angle-double-up"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;31 <i class="far fa-comment-alt"></i></p>
+            <p>Written by <a class="notd" href="lol">Bryce Gray</a>, <i>June 19, 2019</i></p>
+          </div>
         </div>
-
-        <br><br>
-        <h1>Interactables</h1>
-        <h3>Demo of gradient and solid button configurations</h3>
-        <button class="btn btn-grad-blue">Click Me</button>
-        <button class="btn btn-grad-red">Click Me</button>
-        <button class="btn btn-grad-purple">Click Me</button>
-        <button class="btn btn-grad-gray"><i class="fas fa-bars"></i></button>
-        <br><br>
-        <button class="btn btn-solid-blue">Click Me</button>
-        <button class="btn btn-solid-red">Click Me</button>
-        <button class="btn btn-solid-purple">Click Me</button>
-        <button class="btn btn-solid-gray"><i class="fas fa-bars"></i></button>
-        <br>
-        <br>
-        <a href="#" class="btn-link">Click Me</a>
-        <br>
-        <br>
-        <div class="dropdown">
-                <button class="dropbtn btn btn-grad-gray"><i class="fas fa-bars"></i></button>
-                <div class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-            </div>
-        </div> 
-        <br>
-        <br>
-        <div class="lds-facebook"><div></div><div></div><div></div></div>
-        <br>
-        <br>
-        <h1>Input Field</h1>
-        <input type="text" placeholder="Search"/>
-        <br><br>
-        <textarea class="demo" rows="7"></textarea>
-        <br><br>
-        <h1>Default Card Template</h1>
-        <h3>The width has been extended on purpose.</h3>
-
-        <div class="thoxyn-card">
-            <div class="card-profile"><br><br>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyHo44k59yEu2HaPl9cI_N9c3f7u163CSEx8IFMgNYVI9jOkWW">
-            </div>
-            <div class="card-titles">
-                <p class="card-title">Welcome</p>
-            </div>
-            <p class="card-subtitle">Ambiguous, by <a href="#">Ben Beehler ✓</a>, on November 6, 2018</p>
-            <p>Welcome to Thoxyn. I trust that you have read our welcome guide and that you are well acquainted with the purpose of this website. To get started, you can follow users to read their posts.</p>
-            <a href="#" class="btn btn-grad-purple"><i class="fas fa-book"></i> Read More</a>
-            <br>
-            &nbsp;
-        </div>
-        <br>
+      </div>
     </body>
 </html>

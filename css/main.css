@@ -1,77 +1,21 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto");
-@import url("./hover.css");
-@import url("./buttons.css");
-@import url("./inputs.css");
 @import url("./navigation.css");
-@import url("./loading.css");
-@import url("./tags.css");
+@import url("./card.css");
 
-html {
-    font-family: 'Roboto', sans-serif;
-    background: #ededed;
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: snow;
 }
 
-.thoxyn-card {
-    border: 2px solid  #ececec;
-    padding-left: 10px;
-    padding-bottom: 5px;
-    padding-right: 5px;
-    background-color: white;
-    border-radius: 25px;
-    clear: both;
-    position: relative;
-}
-
-.thoxyn-card hr {
-    display: block;
-    width: 25px;
-}
-
-.thoxyn-card .btn {
-    padding-top: 10px;
-}
-
-.card-title {
-    font-size: 37px;
+.btn {
     color: black;
-    right: 10px;
-    padding-bottom: 0;
+    padding: 5px;
+    border: 1.5px solid darkgray;
+    border-radius: 5px;
+    /*position: absolute;*/
 }
 
-.card-subtitle {
-    font-size: 12px;
-    color: darkgray;
-}
-
-.card-subtitle a {
-    text-decoration: none;
-    color: gray;
-}
-
-.card-profile {
-    float: left;
-}
-
-.thoxyn-card img {
-    display: block;
-    float: left;
-    height: 40px;
-    width: 40px;
-    border-radius: 25px;
-    clear: left;
-}
-
-.card-titles p {
-    top: 0;
-    margin-left: 50px;
-}
-
-.btn-link {
-    color: gray;
-    text-decoration: none;
-}
-
-.btn-link:hover {
-    color: darkgray;
-    text-decoration: none;
+.btn:hover {
+    color: black;
+    cursor: pointer;
+    border: 1.5px solid gray;
 }
