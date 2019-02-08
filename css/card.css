@@ -10,7 +10,7 @@
     padding-top: 15px;
     color: rgb(121, 121, 121);
     font-size: 12px;
-    font-weight: 200;
+    font-weight: bold;
 }
 
 .card .title {
@@ -49,7 +49,7 @@
 
 .post .thumbnail {
     float: left;
-    width: 390px;
+    width: 420px;
     height: inherit;
     margin-right: 15px;
 }
@@ -60,10 +60,10 @@
 
 /* Big Card */
 .bigcard .topic {
-    padding-top: 60px;
+    padding-top: 25px;
     color: rgb(121, 121, 121);
     font-size: 12px;
-    font-weight: 200;
+    font-weight: bold;
 }
 
 .bigcard .title {
